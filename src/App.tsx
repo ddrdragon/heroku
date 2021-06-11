@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
+import { Form, Select, Input, InputNumber, Button, Row, Col } from "antd";
 import './App.css';
 
 const Containter = styled.div`
@@ -29,7 +30,13 @@ function App() {
       </header>
 
       <Containter>
-        nnn
+        <Row>
+            <Col span={12}>本金：</Col>
+            <Col span={9}>
+              fol
+            </Col>
+            <Col span={3}></Col>
+          </Row>
       </Containter>
     </div>
   );
