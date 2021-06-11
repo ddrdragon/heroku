@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
+import {Col, Row} from 'antd';
 import './App.css';
 
 const Containter = styled.div`
@@ -38,7 +39,11 @@ function App() {
       </header>
 
       <Containter>
-        
+        <Row>
+          <Col>
+            col
+          </Col>
+        </Row>
       </Containter>
     </div>
   );
