@@ -1,5 +1,15 @@
 import React from 'react';
+import styled from "styled-components";
 import './App.css';
+
+const Containter = styled.div`
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+  background-color: pink;
+`;
 
 function App() {
   return (
@@ -17,6 +27,10 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <Containter>
+        nnn
+      </Containter>
     </div>
   );
 }
