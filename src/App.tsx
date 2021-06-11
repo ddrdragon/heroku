@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from "styled-components";
-import { Form, Select, Input, InputNumber, Button, Row, Col } from "antd";
 import './App.css';
 
 const Containter = styled.div`
@@ -10,6 +9,15 @@ const Containter = styled.div`
   text-align: center;
   height: 100vh;
   background-color: pink;
+`;
+
+const Header = styled.div`
+  display: flex;
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #282c34;
 `;
 
 function App() {
@@ -30,13 +38,7 @@ function App() {
       </header>
 
       <Containter>
-        <Row>
-            <Col span={12}>本金：</Col>
-            <Col span={9}>
-              fol
-            </Col>
-            <Col span={3}></Col>
-          </Row>
+        
       </Containter>
     </div>
   );
